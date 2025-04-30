@@ -16,7 +16,7 @@ const miniTwitter = {
     ]
 };
 
-function criaPost({dados}){
+function criaPost(dados){
     miniTwitter.posts.push({
         id: miniTwitter.posts.length+1,
         owner: dados.owner,
